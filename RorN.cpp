@@ -3,12 +3,12 @@ using namespace std;
 int main()
 {
 	char *c=new char(1);
-	//Êä³ö ±»·ÖÅäµÄcµÄµØÖ·ÏÂµÄÄÚÈİ
+	//è¾“å‡º è¢«åˆ†é…çš„cçš„åœ°å€ä¸‹çš„å†…å®¹
 	//cout<<c; 
-	//ÍË¸ñ·û 
+	//é€€æ ¼ç¬¦ 
 	*c='\b'; 
 	cout<<"avs"<<*c<<"d";//output: avd 
-	//»»ĞĞ·û 
+	//æ¢è¡Œç¬¦ 
 	cout<<endl;
 	*c='\r';
 	cout<<"asdf"<<*c<<"we"; // output: wedf
